@@ -1,0 +1,11 @@
+@import 'partials/_global.scss';
+@import 'partials/_variables.scss';
+@import 'mixins/all.scss';
+
+body {
+  #root {
+    background : var(--palette-blue-500);
+    display : flex;
+    @include hw();
+  }
+}

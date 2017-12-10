@@ -1,0 +1,7 @@
+@import '../../styles/scss/globals.scss';
+
+.dashboard {
+  overflow-y : auto;
+
+  @include hw();
+}

@@ -1,0 +1,19 @@
+.ride-consult {
+  display : flex;
+  // flex-flow : row wrap;
+  // width : 100vw;
+
+  @media (max-width : 1120px) {
+    flex-flow : column nowrap;
+
+    // .ride-settings {
+    //   order : -1;
+    // }
+  }
+  // background : red;
+  .ride-settings {
+    margin-left : 4px;
+    // margin-right : 4px;
+    
+  }
+}

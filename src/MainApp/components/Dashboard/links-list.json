@@ -1,0 +1,18 @@
+{
+  "links" : [
+    {
+      "header" : "Consultas",
+      "items" : [
+        { "name" : "Viajes", "route" : "/ride/consult" },
+        { "name" : "Tickets", "route" : "/ticket/consult" }
+      ]
+    },
+    {
+      "header" : "Crear",
+      "items" : [
+        { "name" : "Viaje", "route" : "/ride/create-modify" },
+        { "name" : "Ticket", "route" : "/ticket/create-modify" }
+      ]
+    }
+  ]
+}

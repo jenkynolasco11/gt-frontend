@@ -1,0 +1,18 @@
+.ticket-consult {
+  // height : 100vh;
+  display : flex;
+  justify-content : center;
+
+  @media (max-width : 1200px) {
+    // .table-content {
+    //   // font-size : 0.8em !important;
+    //   // transform : scale(0.5);
+    // }
+  }
+
+  // width : 100vw;
+
+  .ticket-settings {
+    margin-left : 4px;
+  }
+}
